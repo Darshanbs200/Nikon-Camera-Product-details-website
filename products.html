@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Malgorzata Pick" />
+    <meta
+      name="description"
+      content="Malgorzata Pick | Web design | E-handel | E-commerce | Online shop | Online boutique | Onlinebutik"
+    />
+    <meta
+      name="keywords"
+      content="web design, webbdesign, e-commerce, e-handel, online shop, online boutique, onlinebutik, web developer, webbutvecklare, front-end developer, front-end-utvecklare, utvecklare, front-end, frontend, HTML, CSS, JavaScript, Malgorzata Pick"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quantico&family=Roboto&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/3318035e44.js"></script>
+    <link rel="icon" href="img/camera-logo-16.png" type="image/png" />
+    <title>Nikon</title>
+  </head>
+  <body onload="displayProducts()">
+    <!-- Navbar -->
+    <nav class="nav-container">
+      <!-- Website nav-menu -->
+      <ul class="nav-web">
+        <li>
+          <a href="index.html" id="logo" title="Home"
+            ><img src="img/nikon2.jpg" alt="logo"
+          /></a>
+        </li>
+        <li><a href="products.html">CAMERA</a></li>
+        <li><a href="#">OVERVIEW</a></li>
+        <li><a href="#">PRICE & SPECIFICATIONS</a></li>
+        <li><a href="#">RATING & REVIEW</a></li>
+        <li><a href="#">FIRMWARE UPDATE</a></li>
+      </ul>
+      <!-- Mobile nav-menu -->
+      <div class="nav-mobile">
+        <a href="index.html" id="logo" title="Home"
+          ><img src="img/camera-logo-24.png" alt="logo"
+        /></a>
+        <div id="myLinks">
+          <li><a href="products.html">CAMERA</a></li>
+          <li><a href="#">OVERVIEW</a></li>
+          <li><a href="#">PRICE & SPECIFICATIONS</a></li>
+          <li><a href="#">RATING & REVIEW</a></li>
+          <li><a href="#">FIRMWARE UPDATE</a></li>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Header -->
+      <header class="header">
+        <h1 class="company-name">Nikon Camera Made Attraction</h1>
+        <div class="header-spans">
+          <span class="search"
+            ><i class="fas fa-search"></i
+            ><input
+              type="search"
+              id="search-input"
+              name="search"
+              placeholder="Search"
+          /></span>
+          <span class="user-wrapper">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping" value="2"></i>
+          </span>
+        </div>
+      </header>
+      <section class="products-section">
+        <!-- Products container -->
+        <div class="products-container" id="products"></div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-menu">
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">ABOUT NIKON</li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Corporate Social Responsibility</a></li>
+            <li><a href="#">Corporate Profile</a></li>
+            <li><a href="#">Event & Nikon School</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">TOOLS & DOWNLOADS</li>
+            <li><a href="#">Software & Apps</a></li>
+            <li><a href="#">Firmware</a></li>
+            <li><a href="#">Brochures</a></li>
+            <li><a href="#">Manuals</a></li>
+            <li><a href="#">Nikon Image Space</a></li>
+            <li><a href="#">Download Adobe Reader</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">SHOPPING INFO</li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy and Security</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav-column subscribe">
+          <ul class="footer-nav-container">
+            <li class="li-title">Register Now and Get Discount:</li>
+            <p>
+              Take 10% off your first order when you sign up for our website.
+            </p>
+            <span class="email"
+              ><input
+                type="email"
+                id="Login-input"
+                name="email"
+                placeholder="Email"/>
+                <button id="Login-btn">LOGIN\REGISTER</button></span>
+              
+          </ul>
+        </nav>
+      </div>
+      <!-- Social media -->
+      <div class="social-media">
+        <a href="####" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="#####" target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a href="#####" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="#####" target="_blank"
+          ><i class="fab fa-youtube-square"></i
+        ></a>
+          </div>
+      </div>
+      <p class="copyright">&copy;NiKoN CaMeRa 2024</p>
+    </footer>
+  </body>
+</html>
