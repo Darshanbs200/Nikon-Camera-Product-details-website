@@ -33,7 +33,8 @@
 
 
 
-<img width="252" alt="Screenshot 2024-03-14 195658" src="https://github.com/Darshanbs200/Nikon-Camera-Product-details-website/assets/128827805/465207c1-4015-4b4c-af60-98092be1639b">
+<img width="948" alt="Screenshot 2024-03-14 195710" src="https://github.com/Darshanbs200/Nikon-Camera-Product-details-website/assets/128827805/9d79d1b7-d583-4c86-b932-24b565ee45d5">
+
 
 
 
